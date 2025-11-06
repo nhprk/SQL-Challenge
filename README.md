@@ -34,7 +34,7 @@ Each folder contains the following files for that day’s challenge:
 ### ⚙️ Tools & Environment  
 
 - **SQL Platform:** MySQL  
-- **Editor Used:** MySQL Workbench / DBeaver / Online SQL Sandbox  
+- **Editor Used:** MySQL Workbench 
 
 ---
 
