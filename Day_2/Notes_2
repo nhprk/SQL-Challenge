@@ -29,3 +29,21 @@
 ###🔹 Pattern & Range Operators
 ***LIKE, IN, BETWEEN, NOT BETWEEN, IS NULL, IS NOT NULL***
 ➡️** Used for pattern matching, filtering within lists/ranges, or checking for nulls.**
+
+## 🧩 Practice Queries  
+
+1️⃣ **Find all patients who are older than 60 years** 
+```sql
+   select patient_id, name as patient_name, age as patient_age from patients where age>60;
+```
+
+2️⃣ **Retrieve all staff members who work in the 'Emergency' service** 
+```sql
+     select staff_id, staff_name from staff where service = 'emergency';
+```
+
+3️⃣ **List all weeks where more than 100 patients requested admission in any service**  
+```sql
+      select week from services_weekly where patients_request > 100 ;
+```
+✨ *These exercises focused on applying filters and understanding how to query data effectively using the `WHERE` clause.*
