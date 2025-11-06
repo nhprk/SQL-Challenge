@@ -1,1 +1,3 @@
+**Question: List all unique hospital services available in the hospital.*
+**Query: select distinct service from services_weekly;**
 
